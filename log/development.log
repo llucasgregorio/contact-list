@@ -1,0 +1,946 @@
+  [1m[35m (6373.0ms)[0m  [1m[35mCREATE DATABASE "contact_list_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (2735.2ms)[0m  [1m[35mCREATE DATABASE "contact_list_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-11-09 22:27:05 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (16.1ms)
+Completed 200 OK in 517ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 22:38:44 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 9751ms (Views: 9716.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 22:39:09 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 107ms (Views: 102.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 22:39:16 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 102ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 22:39:26 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 123ms (Views: 109.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:20:43 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 17984ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/config
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/images
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/javascripts
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/stylesheets
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/actionview-5.2.3/lib/assets/compiled
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/node_modules
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1617785812760363939_70129471785300'
+Started GET "/" for ::1 at 2019-11-09 23:21:50 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 1233ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/config
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/images
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/javascripts
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/assets/stylesheets
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/actioncable-5.2.3/lib/assets/compiled
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/activestorage-5.2.3/app/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/actionview-5.2.3/lib/assets/compiled
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/node_modules
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/stylesheets
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/javascripts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/fonts
+  /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/bootstrap-sass-3.4.1/assets/images):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:17
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2099152677551594558_69830971966760'
+Started GET "/" for ::1 at 2019-11-09 23:22:47 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2409ms (Views: 2374.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:50:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (727.1ms)
+Completed 500 Internal Server Error in 2220ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x00007fe0cc8ab088>:0x00007fe0cc8a8ba8>):
+    15:   <!-- Conteudo exibido em telas maiores e que serao escondidos em telas menores -->
+    16:   <div class="collapse navbar-collapse" id="expanded-menu">
+    17:     <ul class="nav navbar-nav">
+    18:       <% if !user_signed_in? %>
+    19:         <li class="active">
+    20:           <%= link_to 'Nova Conta', cadastro_path %>
+    21:         </li>
+  
+app/views/layouts/_header.html.erb:18:in `_app_views_layouts__header_html_erb___1741242158096210253_70301755498960'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2473212084087610354_70301740586640'
+Started GET "/" for ::1 at 2019-11-09 23:51:01 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (916.9ms)
+Completed 500 Internal Server Error in 1366ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x00007fe0cc8ab088>:0x00007fe0ce7722f0>):
+    15:   <!-- Conteudo exibido em telas maiores e que serao escondidos em telas menores -->
+    16:   <div class="collapse navbar-collapse" id="expanded-menu">
+    17:     <ul class="nav navbar-nav">
+    18: <!--       <% if !user_signed_in? %>
+    19:  -->        <li class="active">
+    20:           <%= link_to 'Nova Conta', cadastro_path %>
+    21:         </li>
+  
+app/views/layouts/_header.html.erb:18:in `_app_views_layouts__header_html_erb___1741242158096210253_70301749137500'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2473212084087610354_70301756225620'
+Started GET "/" for ::1 at 2019-11-09 23:51:23 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+Completed 500 Internal Server Error in 293ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/desumilde/Documentos/Aprendizado-Ruby/Ruby-on-Rails/contact_list/app/views/layouts/_header.html.erb:59: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/layouts/_header.html.erb:59: syntax error, unexpected ensure, expecting end-of-input
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__2473212084087610354_70301709373280'
+Started GET "/" for ::1 at 2019-11-09 23:55:24 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (4.1ms)
+Completed 200 OK in 1576ms (Views: 1537.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:55:32 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+Completed 200 OK in 248ms (Views: 243.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:57:48 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (7.4ms)
+Completed 200 OK in 264ms (Views: 259.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:58:05 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 305ms (Views: 297.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:58:38 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 452ms (Views: 442.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-09 23:59:12 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+Completed 200 OK in 334ms (Views: 330.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 00:00:47 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+Completed 200 OK in 266ms (Views: 262.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 00:06:07 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+Completed 200 OK in 349ms (Views: 345.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:41:27 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+Completed 200 OK in 1617ms (Views: 1583.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:42:43 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+Completed 200 OK in 314ms (Views: 309.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:45:16 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 298ms (Views: 289.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:45:46 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 292ms (Views: 281.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:47:48 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 9004ms (Views: 9000.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:48:03 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 221ms (Views: 216.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:48:48 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_footer.html.erb (10.9ms)
+Completed 200 OK in 300ms (Views: 296.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:49:20 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7537ms (Views: 7531.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:50:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "}": expected "}", was ""):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:30
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1326189842808608826_69832481256040'
+Started GET "/" for ::1 at 2019-11-10 17:50:22 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7343ms (Views: 7336.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:50:47 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7924ms (Views: 7915.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:50:57 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 239ms (Views: 235.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:52:12 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 223ms (Views: 219.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:54:02 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7594ms (Views: 7589.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:54:29 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7501ms (Views: 7490.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:55:57 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 327ms (Views: 323.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:56:49 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 7301ms (Views: 7297.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:57:41 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 7147ms (Views: 7141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 17:58:02 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 230ms (Views: 226.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 18:08:53 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 2006ms (Views: 1971.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sobre" for ::1 at 2019-11-10 18:09:02 -0300
+Processing by StaticPagesController#sobre as HTML
+  Rendering static_pages/sobre.html.erb within layouts/application
+  Rendered static_pages/sobre.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (3.4ms)
+Completed 200 OK in 307ms (Views: 302.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:09:11 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 232ms (Views: 228.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:11:36 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (2.2ms)
+Completed 200 OK in 294ms (Views: 290.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:11:40 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.1ms)
+Completed 200 OK in 368ms (Views: 364.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:11:45 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (3.3ms)
+Completed 200 OK in 294ms (Views: 284.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:11:51 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 250ms (Views: 245.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sobre" for ::1 at 2019-11-10 18:11:53 -0300
+Processing by StaticPagesController#sobre as HTML
+  Rendering static_pages/sobre.html.erb within layouts/application
+  Rendered static_pages/sobre.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 273ms (Views: 267.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-10 18:11:55 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 345ms (Views: 336.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 18:12:32 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 257ms (Views: 252.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-10 18:13:42 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 309ms (Views: 304.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (546.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (157.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4911959984300825505)[0m
+  ↳ bin/rails:9
+  [1m[35m (31.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateContactModels (20191110211706)
+  [1m[35m (3.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (157.4ms)[0m  [1m[35mCREATE TABLE "contact_models" ("id" bigserial primary key, "name" character varying, "telefone" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20191110211706_create_contact_models.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (4.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191110211706"]]
+  ↳ bin/rails:9
+  [1m[35m (29.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (2.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (1.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-11-10 21:24:10.759299"], ["updated_at", "2019-11-10 21:24:10.759299"]]
+  ↳ bin/rails:9
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(4911959984300825505)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/contactmodel" for ::1 at 2019-11-10 18:31:53 -0300
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/contactmodel"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/contact_model" for ::1 at 2019-11-10 18:32:05 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/contact_model"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/contact_model/new" for ::1 at 2019-11-10 18:32:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/contact_model/new"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/contact_models" for ::1 at 2019-11-10 18:33:02 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (13.7ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (33.3ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 2489ms (Views: 2433.3ms | ActiveRecord: 20.5ms)
+
+
+Started GET "/contact_models/new" for ::1 at 2019-11-10 18:34:28 -0300
+Processing by ContactModelsController#new as HTML
+  Rendering contact_models/new.html.erb within layouts/application
+  Rendered contact_models/_form.html.erb (203.6ms)
+  Rendered contact_models/new.html.erb within layouts/application (212.7ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 535ms (Views: 478.5ms | ActiveRecord: 18.9ms)
+
+
+Started POST "/contact_models" for ::1 at 2019-11-10 18:34:37 -0300
+Processing by ContactModelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XNfxfuHRB14/bQKofiSLWAqghhB5W9I8s/PstJqcpf/rqBAwXz96J33+n6gnUnlGJ6TMIwWukBruvzSd9UfrzQ==", "contact_model"=>{"name"=>"lucas", "telefone"=>"1140028922"}, "commit"=>"Create Contact model"}
+  [1m[35m (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/contact_models_controller.rb:30
+  [1m[36mContactModel Create (3.1ms)[0m  [1m[32mINSERT INTO "contact_models" ("name", "telefone", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "lucas"], ["telefone", "1140028922"], ["created_at", "2019-11-10 21:34:37.931604"], ["updated_at", "2019-11-10 21:34:37.931604"]]
+  ↳ app/controllers/contact_models_controller.rb:30
+  [1m[35m (127.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/contact_models_controller.rb:30
+Redirected to http://localhost:3000/contact_models/1
+Completed 302 Found in 156ms (ActiveRecord: 135.8ms)
+
+
+Started GET "/contact_models/1" for ::1 at 2019-11-10 18:34:38 -0300
+Processing by ContactModelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mContactModel Load (2.0ms)[0m  [1m[34mSELECT  "contact_models".* FROM "contact_models" WHERE "contact_models"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contact_models_controller.rb:67
+  Rendering contact_models/show.html.erb within layouts/application
+  Rendered contact_models/show.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 346ms (Views: 317.0ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/contact_models" for ::1 at 2019-11-10 18:34:43 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (1.5ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (13.8ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 296ms (Views: 288.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/contact_models/1" for ::1 at 2019-11-10 18:34:46 -0300
+Processing by ContactModelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mContactModel Load (4.9ms)[0m  [1m[34mSELECT  "contact_models".* FROM "contact_models" WHERE "contact_models"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contact_models_controller.rb:67
+  Rendering contact_models/show.html.erb within layouts/application
+  Rendered contact_models/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 449ms (Views: 433.4ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/contact_models" for ::1 at 2019-11-10 18:34:49 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (2.6ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (4.2ms)
+Completed 200 OK in 456ms (Views: 443.8ms | ActiveRecord: 2.6ms)
+
+
+Started DELETE "/contact_models/1" for ::1 at 2019-11-10 18:34:52 -0300
+Processing by ContactModelsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fL8XOjHWdYChLRDIk+S3STdhx/8Q8iFIApg626WHicgqNAdH21G1+ycE2+3XsFBsZvLSUgaRgE+s7MQBcya5/Q==", "id"=>"1"}
+  [1m[36mContactModel Load (2.9ms)[0m  [1m[34mSELECT  "contact_models".* FROM "contact_models" WHERE "contact_models"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/contact_models_controller.rb:67
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/contact_models_controller.rb:57
+  [1m[36mContactModel Destroy (3.4ms)[0m  [1m[31mDELETE FROM "contact_models" WHERE "contact_models"."id" = $1[0m  [["id", 1]]
+  ↳ app/controllers/contact_models_controller.rb:57
+  [1m[35m (25.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/contact_models_controller.rb:57
+Redirected to http://localhost:3000/contact_models
+Completed 302 Found in 63ms (ActiveRecord: 32.4ms)
+
+
+Started GET "/contact_models" for ::1 at 2019-11-10 18:34:52 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (2.7ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (2.9ms)
+Completed 200 OK in 317ms (Views: 308.9ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/contact_models/new" for ::1 at 2019-11-10 18:40:07 -0300
+Processing by ContactModelsController#new as HTML
+  Rendering contact_models/new.html.erb within layouts/application
+  Rendered contact_models/_form.html.erb (13.0ms)
+  Rendered contact_models/new.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 360ms (Views: 296.6ms | ActiveRecord: 27.2ms)
+
+
+Started POST "/contact_models" for ::1 at 2019-11-10 18:40:17 -0300
+Processing by ContactModelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"T7kEUabQznBSbL/3B5HYdNFHIFNrO/F3LZWB3CMcnXL4xuUfGD6zCRD/Ivde5ypq/ENqYBfOs1Fw2Vn1TMfTQA==", "contact_model"=>{"name"=>"creuza", "telefone"=>"40028922"}, "commit"=>"Create Contact model"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/contact_models_controller.rb:32
+  [1m[36mContactModel Create (7.5ms)[0m  [1m[32mINSERT INTO "contact_models" ("name", "telefone", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "creuza"], ["telefone", "40028922"], ["created_at", "2019-11-10 21:40:17.730979"], ["updated_at", "2019-11-10 21:40:17.730979"]]
+  ↳ app/controllers/contact_models_controller.rb:32
+  [1m[35m (27.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/contact_models_controller.rb:32
+Redirected to http://localhost:3000/contact_models/2
+Completed 302 Found in 54ms (ActiveRecord: 35.7ms)
+
+
+Started GET "/contact_models/2" for ::1 at 2019-11-10 18:40:17 -0300
+Processing by ContactModelsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mContactModel Load (1.5ms)[0m  [1m[34mSELECT  "contact_models".* FROM "contact_models" WHERE "contact_models"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/contact_models_controller.rb:69
+  Rendering contact_models/show.html.erb within layouts/application
+  Rendered contact_models/show.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 335ms (Views: 318.8ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/contact_models" for ::1 at 2019-11-10 18:40:21 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (1.6ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (3.0ms)
+Completed 200 OK in 327ms (Views: 321.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/contact_models/new" for ::1 at 2019-11-10 18:40:23 -0300
+Processing by ContactModelsController#new as HTML
+  Rendering contact_models/new.html.erb within layouts/application
+  Rendered contact_models/_form.html.erb (20.7ms)
+  Rendered contact_models/new.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 330ms (Views: 319.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact_models" for ::1 at 2019-11-10 18:40:31 -0300
+Processing by ContactModelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+h5tFdDaf2TD0YNUZqpNpvIlIhFm78p7UQHHcC9TmKFNYYxbbjQCHYFCHlQ/3L+43yFoIhoaiF0MTR9ZQIjWkw==", "contact_model"=>{"name"=>"jubiscleiton", "telefone"=>"112222222"}, "commit"=>"Create Contact model"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/contact_models_controller.rb:32
+  [1m[36mContactModel Create (1.8ms)[0m  [1m[32mINSERT INTO "contact_models" ("name", "telefone", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "jubiscleiton"], ["telefone", "112222222"], ["created_at", "2019-11-10 21:40:31.756606"], ["updated_at", "2019-11-10 21:40:31.756606"]]
+  ↳ app/controllers/contact_models_controller.rb:32
+  [1m[35m (49.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/contact_models_controller.rb:32
+Redirected to http://localhost:3000/contact_models/3
+Completed 302 Found in 66ms (ActiveRecord: 51.4ms)
+
+
+Started GET "/contact_models/3" for ::1 at 2019-11-10 18:40:31 -0300
+Processing by ContactModelsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mContactModel Load (1.3ms)[0m  [1m[34mSELECT  "contact_models".* FROM "contact_models" WHERE "contact_models"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/contact_models_controller.rb:69
+  Rendering contact_models/show.html.erb within layouts/application
+  Rendered contact_models/show.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 382ms (Views: 371.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/contact_models" for ::1 at 2019-11-10 18:40:35 -0300
+Processing by ContactModelsController#index as HTML
+  Rendering contact_models/index.html.erb within layouts/application
+  [1m[36mContactModel Load (1.5ms)[0m  [1m[34mSELECT "contact_models".* FROM "contact_models"[0m
+  ↳ app/views/contact_models/index.html.erb:15
+  Rendered contact_models/index.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (2.3ms)
+Completed 200 OK in 289ms (Views: 283.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2019-11-13 20:55:26 -0300
+  [1m[35m (64.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (2.6ms)
+Completed 200 OK in 3476ms (Views: 3250.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4911959984300825505)[0m
+  ↳ bin/rails:9
+  [1m[35m (3.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateUsuarios (20191114000118)
+  [1m[35m (35.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (781.2ms)[0m  [1m[35mCREATE TABLE "usuarios" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "nome" character varying DEFAULT '' NOT NULL, "senha" character varying DEFAULT '' NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20191114000118_create_usuarios.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (4.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20191114000118"]]
+  ↳ bin/rails:9
+  [1m[35m (24.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (37.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4911959984300825505)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUsuario Create (3.3ms)[0m  [1m[32mINSERT INTO "usuarios" ("email", "nome", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "pastel@gmail.com"], ["nome", "Lucas"], ["created_at", "2019-11-14 00:07:03.486825"], ["updated_at", "2019-11-14 00:07:03.486825"]]
+  [1m[35m (162.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUsuario Load (2.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUsuario Load (7.9ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2019-11-20 13:12:42 -0300
+  [1m[35m (51.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/desumilde/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 3154ms (Views: 3084.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-20 13:12:55 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 275ms (Views: 270.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-20 13:12:58 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 366ms (Views: 361.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contato" for ::1 at 2019-11-20 13:13:00 -0300
+Processing by StaticPagesController#contato as HTML
+  Rendering static_pages/contato.html.erb within layouts/application
+  Rendered static_pages/contato.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (2.5ms)
+Completed 200 OK in 272ms (Views: 245.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sobre" for ::1 at 2019-11-20 13:13:03 -0300
+Processing by StaticPagesController#sobre as HTML
+  Rendering static_pages/sobre.html.erb within layouts/application
+  Rendered static_pages/sobre.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 416ms (Views: 223.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-20 13:13:08 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (2.4ms)
+Completed 200 OK in 336ms (Views: 326.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-20 13:13:09 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 309ms (Views: 300.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-11-20 13:13:10 -0300
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered static_pages/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (2.7ms)
+Completed 200 OK in 355ms (Views: 346.2ms | ActiveRecord: 0.0ms)
+
+
