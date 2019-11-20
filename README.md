@@ -11,3 +11,6 @@ Aplicação basica sendo desenvolvida com o intuito de aprender Ruby e o framewo
 
 &nbsp;
 -Banco de dados PostgreSQL
+
+&nbsp;
+-Biblioteca Bootstrap
